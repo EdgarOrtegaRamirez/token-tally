@@ -6,11 +6,9 @@
 from __future__ import annotations
 
 import json
-from datetime import datetime, timezone
 from typing import Optional
 
 import click
-from rich.console import Console
 
 from .analyzer import UsageAnalyzer
 from .models import Provider

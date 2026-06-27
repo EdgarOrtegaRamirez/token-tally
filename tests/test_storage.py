@@ -1,6 +1,5 @@
 """Tests for token storage."""
 
-import json
 import os
 import tempfile
 from datetime import datetime, timedelta, timezone
@@ -8,7 +7,7 @@ from datetime import datetime, timedelta, timezone
 import pytest
 
 from token_tally.models import Provider, UsageEntry
-from token_tally.storage import DatabaseError, TokenStorage
+from token_tally.storage import TokenStorage
 
 
 @pytest.fixture
