@@ -13,6 +13,10 @@ authors = [{name = "Edgar Ortega Ramirez"}]
 dependencies = ["pydantic>=2.6.0", "rich>=13.7.0", "pyyaml>=6.0.1", "click>=8.1.7"]
 
 [project.optional-dependencies]
+dev = [
+    "pytest>=9.1",
+    "ruff>=0.15",
+]
 mcp = ["mcp>=1.0.0"]
 
 [project.scripts]
